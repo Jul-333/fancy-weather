@@ -1,0 +1,176 @@
+@media screen and (max-width: 1025px) {
+  .icon-next-days-weather {
+    top: 35px;
+    right: 2px;
+    width: 48px;
+    height: 42px;
+  }
+}
+
+@media screen and (max-width: 896px) {
+  .wrapper {
+    min-width: 700px;
+  }
+  .search-form {
+    margin-left: 7px;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper-geolocation-data {
+    margin-top: 40px;
+    margin-left: 0px;
+  }
+  #map {
+    margin-top: 40px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .wrapper {
+    min-width: 604px;
+  }
+  .wrapper-weather-date {
+    min-width: 526px;
+    height: 475px;
+  }
+  .wrapper-date {
+    min-width: 377px;
+  }
+  .current-temperature {
+    font-size: 158px;
+  }
+  .current-weather-left {
+    min-width: 255px;
+    height: 250px;
+  }
+  .current-weather-right {
+    height: 250px;
+    font-size: 23px;
+  }
+  .three-days-weather {
+    min-width: 324px;
+    height: 124px;
+  }
+  .next-days-temperature {
+    margin-left: 40px;
+  }
+  .icon-next-days-weather {
+    min-width: 29px;
+    height: 47px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .header-buttons {
+    min-width: 320px;
+  }
+  .button-celsius,
+  .button-fahrenheit {
+    display: none;
+  }
+  .button-search {
+    width: 47px;
+  }
+  .main {
+    min-width: 320px;
+  }
+  .wrapper {
+    min-width: 320px;
+  }
+  .wrapper-weather-date {
+    width: 100%;
+    min-width: 320px;
+    height: 323px;
+  }
+  .wrapper-date {
+    min-width: 320px;
+    height: 65px;
+  }
+  .wrapper-date p:nth-child(1) {
+    font-size: 21px;
+  }
+  .wrapper-date p:nth-child(2) {
+    font-size: 18px;
+  }
+  .wrapper-current-weather {
+    min-width: 320px;
+    height: 154px;
+  }
+  .icon-current-weather {
+    height: 80px;
+  }
+  .current-weather-left {
+    min-width: 208px;
+    height: 163px;
+  }
+  .current-temperature {
+    font-size: 147px;
+    line-height: 165px;
+  }
+  .current-weather-right {
+    width: 100%;
+    max-width: 100px;
+    height: 163px;
+  }
+  .weather-propertys {
+    display: none;
+  }
+  .three-days-weather {
+    width: 100%;
+    min-width: 320px;
+    height: 94px;
+  }
+  .next-days-temperature {
+    line-height: 1;
+  }
+  .icon-next-days-weather {
+    width: 20px;
+    height: 31px;
+  }
+  .wrapper-geolocation-data {
+    margin-top: 20px;
+    width: 100%;
+    min-width: 320px;
+    height: 230px;
+  }
+  #map {
+    min-width: 320px;
+    max-width: 400px;
+    height: 210px;
+  }
+  .background-lat-lon {
+    display: none;
+  }
+
+  @media screen and (max-width: 553px) {
+    .wrapper-weather-date {
+      height: 315px;
+    }
+    .next-days-temperature {
+      margin-left: 0px;
+      font-size: 55px;
+    }
+    .icon-next-days-weather{
+      left: 84px;
+      right: 0px;
+    }
+  }
+
+  @media screen and (max-width: 404px) {
+    .button-search {
+      width: 40px;
+    }
+    .input-search {
+      width: 192px;
+    }
+    .next-days-temperature {
+      font-size: 43px;
+    }
+    .icon-next-days-weather{
+      left: 65px;
+    }
+  }
+}
