@@ -19,7 +19,6 @@ export async function getUserLocation() {
 
     return getPosition()
         .then((position) => {
-            console.log('position', position)
             const crd = position.coords;
             return `${crd.latitude},${crd.longitude}`;
         })
